@@ -16,8 +16,8 @@ document.querySelector('.but').addEventListener('click',function(){
         document.querySelector('.msg').textContent = 'underweight'; 
         // document.querySelector('.msg').style.backgroundColor = "red";
         bject.assign(document.querySelector('.msg').style,{
-            backgroundColor: 'green',
-            color: 'red'
+            backgroundColor: 'orange',
+            color: 'black'
             // document.querySelector('.msg').style.backgroundColor = "green"
         })
         document.querySelector('.advice').textContent = 'Based on your BMI, you may need to gain weight for a healthier balance';
@@ -38,8 +38,8 @@ document.querySelector('.but').addEventListener('click',function(){
     else if(finalResult<=29.9){
         document.querySelector('.msg').textContent = 'over-weight';
         bject.assign(document.querySelector('.msg').style,{
-            backgroundColor: 'green',
-            color: 'orange'
+            backgroundColor: 'red',
+            color: 'white'
             // document.querySelector('.msg').style.backgroundColor = "green"
         })
         document.querySelector('.advice').textContent = 'Based on your BMI, you may need to lose weight for a healthier balance. ';
@@ -49,8 +49,8 @@ document.querySelector('.but').addEventListener('click',function(){
         document.querySelector('.msg').textContent = 'extreme overweight';
         // document.querySelector('.msg').style.backgroundColor = "blue";
         bject.assign(document.querySelector('.msg').style,{
-            backgroundColor: 'green',
-            color: 'red'
+            backgroundColor: 'black',
+            color: 'white'
             // document.querySelector('.msg').style.backgroundColor = "green"
         })
         document.querySelector('.advice').textContent = 'Based on your BMI, you are extremely overweight and may need to take significant steps to achieve a healthier balance ';
